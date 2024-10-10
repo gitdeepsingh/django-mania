@@ -27,3 +27,8 @@ make sure we are still i virtula env, then create a new app, and register that u
 python manage.py startapp playground
 ```
  
+ ##### views in django
+
+ - open playground/views.py (view handles data exchange, requests and returns response)
+ - create a view (request) and map it to a url
+ - start server and hit http://127.0.0.1:8000/playground/hello/
