@@ -22,7 +22,7 @@ python manage.py runserver
 ```
 - Check out djangomania/settings.py to see INSTALLED_APPS
 
-make sure we are still i virtula env, then create a new app, and register that under INSTALLED_APPS
+make sure we are still i virtula env, then create a new app, and register that under INSTALLED_APPS under djangomania/settings.py
 ```
 python manage.py startapp playground
 ```
