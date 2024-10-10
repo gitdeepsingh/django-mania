@@ -32,3 +32,8 @@ python manage.py startapp playground
  - open playground/views.py (view handles data exchange, requests and returns response)
  - create a view (request) and map it to a url
  - start server and hit http://127.0.0.1:8000/playground/hello/
+
+  ##### templates in django
+   - to render HTML on browser
+   - we can replace django template engine with our preferred temnplate engine
+   - we often not use django to build templates but mostly to create APIs
