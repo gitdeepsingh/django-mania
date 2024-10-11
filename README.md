@@ -27,13 +27,17 @@ make sure we are still i virtula env, then create a new app, and register that u
 python manage.py startapp playground
 ```
  
- ##### views in django
+##### views in django
 
  - open playground/views.py (view handles data exchange, requests and returns response)
  - create a view (request) and map it to a url
  - start server and hit http://127.0.0.1:8000/playground/hello/
 
-  ##### templates in django
+##### templates in django
    - to render HTML on browser
    - we can replace django template engine with our preferred temnplate engine
    - we often not use django to build templates but mostly to create APIs
+
+##### setup debug_toolbar
+https://django-debug-toolbar.readthedocs.io/en/latest/installation.html 
+
