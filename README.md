@@ -26,6 +26,8 @@ make sure we are still i virtula env, then create a new app, and register that u
 ```
 python manage.py startapp playground
 ```
+
+we can create multiple apps inside a project. Eacvh app can serve different purposes related to that project.
  
 ##### views in django
 
@@ -41,3 +43,16 @@ python manage.py startapp playground
 ##### setup debug_toolbar
 https://django-debug-toolbar.readthedocs.io/en/latest/installation.html 
 
+##### restapi
+ - create REST API using djangorestframework
+ - to migrate models to DB tables. check restapi/migrations/0001_initial.py
+ ```
+ python3 manage.py makemigrations
+ ```
+ ```
+ python3 manage.py migrate
+ ```
+ - above command will create db.sqlite3
+ - then we create restapi/serializer.py that will transform model into json data
+ - CREATE: (post)  http://127.0.0.1:8000/restapi/users/create
+ - READ: (get) http://127.0.0.1:8000/restapi/users/
