@@ -54,5 +54,5 @@ https://django-debug-toolbar.readthedocs.io/en/latest/installation.html
  ```
  - above command will create db.sqlite3
  - then we create restapi/serializer.py that will transform model into json data
- - CREATE: (post)  http://127.0.0.1:8000/restapi/users/create
- - READ: (get) http://127.0.0.1:8000/restapi/users/
+ - GET: http://127.0.0.1:8000/restapi/users/
+ - POST: http://127.0.0.1:8000/restapi/users/create
